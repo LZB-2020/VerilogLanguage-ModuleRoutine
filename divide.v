@@ -31,7 +31,7 @@ module divide #(parameter  N = 5, parameter  WIDTH = 3)
             clk_p <= 0;
         else if (cnt_p < (N >> 1)) 
             clk_p <= 0;
-        else 
+        else
             clk_p <= 1;
     end
  
