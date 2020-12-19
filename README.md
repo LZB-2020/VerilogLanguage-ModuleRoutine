@@ -1,0 +1,2 @@
+# VerilogLanguage-ModuleRoutine
+收集备份一些经常用到的、通用的verilogModules
