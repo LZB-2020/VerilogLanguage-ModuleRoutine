@@ -6,7 +6,7 @@ module debounce
 #(
   parameter  N = 1;
   parameter  CNT_NUM = 240000;
-  parameter  WIDTH = 18;
+  parameter  WIDTH = 18
 )
 //N: the number of debounce keys
 //CNT_NUM: the number of clk cycles for timing,  CNT_NUM = (time of debounce) / (cycle of input clk)
