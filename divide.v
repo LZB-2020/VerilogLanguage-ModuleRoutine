@@ -3,8 +3,8 @@
 // Module Function: divide clk in any integer(even or odd)
  
 module divide #(parameter  N = 5, parameter  WIDTH = 3)
-//N: Frequency division factor
-//WIDTH: Counter bit width, make sure "WIDTH > ln(N+1) / ln2"
+//N: Frequency division factor, N = (clk frequency) / (clkout frequency)
+//WIDTH: Counter bit width, make sure: WIDTH > ln(N+1) / ln2
 (
   input       clk,   //input clk
   input     rst_n,   //active low
@@ -47,7 +47,7 @@ module divide #(parameter  N = 5, parameter  WIDTH = 3)
  
   //create cnt_n: half a clock cycle is difference from cnt_p; 
   //              the positive cycle of cnt_n is one clk clock more than the negative cycle of cnt_n
-  always @ (negedge clk)
+  always @ (negedge clk or negedge rst_n)
     begin
         if(!rst_n)
             clk_n <= 0;
