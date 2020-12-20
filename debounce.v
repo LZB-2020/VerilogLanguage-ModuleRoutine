@@ -4,8 +4,8 @@
  
 module debounce 
 #(
-  parameter  N = 1;
-  parameter  CNT_NUM = 240000;
+  parameter  N = 1,
+  parameter  CNT_NUM = 240000,
   parameter  WIDTH = 18
 )
 //N: the number of debounce keys
@@ -29,7 +29,7 @@ module debounce
             key_n_r <= key_n;
         end
     end
-  wire  key_edge = key_n_r & (~key_n);
+  wire [N-1:0] key_edge = (key_n_r) & (~key_n);
 
   //Timing
   reg [WIDTH-1:0] cnt;
@@ -38,10 +38,10 @@ module debounce
         if(!rst_n) begin
             cnt <= 0;
         end
-        else if(key_edge) begin
+        else if(|key_edge) begin
             cnt <= 0;
         end
-		else if(cnt == CNT_NUM-1) begin
+		else if(cnt == CNT_NUM) begin
             cnt <= cnt;
         end
         else begin
@@ -75,6 +75,6 @@ module debounce
 		    key_sec_pre <= {N{1'b1}};
 		end
 	end
-  assign  key_pulse = key_sec_pre & (~key_sec);
+  assign key_pulse = key_sec_pre & (~key_sec);
 
 endmodule
