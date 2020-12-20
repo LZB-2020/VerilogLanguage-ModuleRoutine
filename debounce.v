@@ -29,7 +29,7 @@ module debounce
             key_n_r <= key_n;
         end
     end
-  wire [N-1:0] key_edge = (key_n_r) & (~key_n);
+  wire [N-1:0] key_edge = key_n_r & (~key_n);
 
   //Timing
   reg [WIDTH-1:0] cnt;
@@ -41,7 +41,7 @@ module debounce
         else if(|key_edge) begin
             cnt <= 0;
         end
-		else if(cnt == CNT_NUM) begin
+	else if(cnt == CNT_NUM) begin
             cnt <= cnt;
         end
         else begin
@@ -59,9 +59,9 @@ module debounce
         else if(cnt == CNT_NUM-1) begin
             key_sec <= key_n;
         end
-		else begin
-		    key_sec <= {N{1'b1}};
-		end
+	else begin
+	    key_sec <= {N{1'b1}};
+	end
     end
   always @(posedge clk or negedge rst_n)
     begin
@@ -71,9 +71,9 @@ module debounce
         else if(cnt == CNT_NUM-1) begin
             key_sec_pre <= key_sec;
         end
-		else begin
-		    key_sec_pre <= {N{1'b1}};
-		end
+	else begin
+	    key_sec_pre <= {N{1'b1}};
+	end
 	end
   assign key_pulse = key_sec_pre & (~key_sec);
 
