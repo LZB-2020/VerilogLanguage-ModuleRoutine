@@ -32,8 +32,8 @@ Array_KeyBoard
   always #42 clk = ~clk;
   
   initial begin
-    col = 4'b1111;
-    rst_n = 1'b1; delay(4000);
+        col = 4'b1111;
+        rst_n = 1'b1; delay(4000);
 	rst_n = 1'b0; delay(40000);
 	rst_n = 1'b1; delay(200000);
 	
