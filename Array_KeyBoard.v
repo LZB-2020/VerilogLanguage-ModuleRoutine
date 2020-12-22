@@ -3,7 +3,7 @@
 
 module Array_KeyBoard
 #(
-  parameter  CNT_200HZ = 60000;
+  parameter  CNT_200HZ = 60000,
   parameter  WIDTH = 16
 )
 //CNT_200HZ: Frequency division factor
