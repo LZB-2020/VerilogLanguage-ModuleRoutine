@@ -21,7 +21,21 @@ module Array_KeyBoard
   localparam  STATE1 = 2'b01;
   localparam  STATE2 = 2'b10;
   localparam  STATE3 = 2'b11;
-
+  
+  /*
+	row[3] ->  15     14     13     12
+	
+	row[2] ->  11     10     09     08
+	
+	row[1] ->  07     06     05     04
+	
+	row[0] ->  03     02     01     00
+	
+	            |      |      |      |
+	            ∨     ∨     ∨     ∨
+		  col[3] col[2] col[1] col[0]
+  */
+  
   /*
     因使用4x4矩阵按键，通过扫描方法实现，所以这里使用状态机实现，共分为4种状态
     在其中的某一状态时间里，对应的4个按键相当于独立按键，可按独立按键的周期采样法采样
