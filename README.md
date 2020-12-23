@@ -7,7 +7,7 @@
       <p><b>邮箱：lvzhenbin666@126.com</b></p>
     </td>
     <td width="25%">
-      <img src="https://github.com/HITlvzhenbin2020/VerilogLanguage-ModuleRoutine/raw/image/100%E5%91%A8%E5%B9%B4.png" width="100%">
+      <img src="https://github.com/HITlvzhenbin2020/VerilogLanguage-ModuleRoutine/blob/main/image/100%E5%91%A8%E5%B9%B4.png" width="100%">
     </td>
   </tr>
 </table>
