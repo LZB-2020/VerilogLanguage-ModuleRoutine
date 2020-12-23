@@ -1,4 +1,4 @@
-![百年校庆](https://github.com/HITlvzhenbin2020/VerilogLanguage-ModuleRoutine/blob/main/image/100%E5%91%A8%E5%B9%B4.png)
+![百年校庆](https://github.com/HITlvzhenbin2020/VerilogLanguage-ModuleRoutine/blob/main/image/100%E5%91%A8%E5%B9%B4.png)![学校logo](https://github.com/HITlvzhenbin2020/VerilogLanguage-ModuleRoutine/blob/main/image/%E5%93%88%E5%B0%94%E6%BB%A8%E5%B7%A5%E4%B8%9A%E5%A4%A7%E5%AD%A6logo3.jpg)
 ## 欢迎来到HIT吕振斌的个人博客——VerilogLanguage-ModuleRoutine版块
 
 该网站用于收集一些基于verilog语言的通用module（包含对应的testbench文件）。
