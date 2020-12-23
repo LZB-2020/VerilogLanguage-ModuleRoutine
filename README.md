@@ -6,13 +6,11 @@
 
 ### 目录
 
-在此列出截止到当前已收集的module。
+在此列出截止到当前已收集的module名称，并显示出模块头以供读者概览输入输出端口，若查看详细代码，则请在该网站下载。
 
 当然，此处作者会根据自己的情况，不定期进行更新。
 
-```markdown
 **1. divide.v（时钟分频）**
-
 ```verilog
   module divide #(parameter  N = 5, parameter  WIDTH = 3)
   //N: Frequency division factor, N = (clk frequency) / (clkout frequency)
@@ -25,7 +23,6 @@
 ```
 
 **2.debounce.v（独立按键消抖）**
-
 ```verilog
   module debounce 
   #(
@@ -45,7 +42,6 @@
 ```
 
 **3.Array_KeyBoard.v（4×4矩阵键盘扫描）**
-
 ```verilog
   module Array_KeyBoard
   #(
@@ -65,7 +61,6 @@
 ```
 
 **4.pwm.v（PWM生成）**
-
 ```verilog
   module pwm #(parameter WIDTH = 32)
   //the width of counter, make sure: WIDTH > ln(cycle) / ln2
@@ -80,7 +75,6 @@
 ```
 
 **5.segment_anode.v（共阳极八段数码管）**
-
 ```verilog
   module segment_anode (
     input         seg_DIG,  // Position selection, active high
@@ -91,7 +85,6 @@
 ```
 
 **6.segment_cathode.v（共阴极八段数码管）**
-
 ```verilog
   module segment_cathode (
     input         seg_DIG,  // Position selection, active low
@@ -101,30 +94,7 @@
   );
 ```
 
-
-
-
-
-
-
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+更多Markdown语法细节详见 [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Jekyll Themes
 
