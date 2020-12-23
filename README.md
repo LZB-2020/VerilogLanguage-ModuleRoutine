@@ -10,7 +10,8 @@
 
 当然，此处作者会根据自己的情况，不定期进行更新。
 
-**1. divide.v（时钟分频）**```verilog
+**1. divide.v（时钟分频）**
+```verilog
   module divide #(parameter  N = 5, parameter  WIDTH = 3)
   //N: Frequency division factor, N = (clk frequency) / (clkout frequency)
   //WIDTH: Counter bit width, make sure: WIDTH > ln(N+1) / ln2
