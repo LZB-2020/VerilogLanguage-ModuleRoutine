@@ -1,12 +1,11 @@
-![百年校庆](https://github.com/HITlvzhenbin2020/VerilogLanguage-ModuleRoutine/raw/image/100%E5%91%A8%E5%B9%B4.png)![学校logo](https://github.com/HITlvzhenbin2020/VerilogLanguage-ModuleRoutine/blob/main/image/%E5%93%88%E5%B0%94%E6%BB%A8%E5%B7%A5%E4%B8%9A%E5%A4%A7%E5%AD%A6logo3.jpg)
 <table border="0">
   <tr>
     <td width="75%">
       <h1>吕振斌</h1>
-      <p><b>硕士研究生</b></p>
+      <p><b>学士本科生</b></p>
       <p><b>哈尔滨工业大学大学信息科学与工程学院</b></p>
       <p><b>邮箱：lvzhenbin666@126.com</b></p>
-      <p><b>地址：××市××区××路××号××大学，××楼，邮编×××</b></p>
+      %<p><b>地址：××市××区××路××号××大学，××楼，邮编×××</b></p>
     </td>
     <td width="25%">
       <img src="https://github.com/HITlvzhenbin2020/VerilogLanguage-ModuleRoutine/raw/image/100%E5%91%A8%E5%B9%B4.png" width="100%">      % 插入证件照代码
