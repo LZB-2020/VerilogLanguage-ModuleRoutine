@@ -1,4 +1,4 @@
-## 欢迎来到HIT吕振斌的个人博客——VerilogLanguage-ModuleRoutine
+## 欢迎来到HIT吕振斌的个人博客——VerilogLanguage-ModuleRoutine版块
 
 该网站用于收集一些基于verilog语言的通用module（包含对应的testbench文件）。
 
@@ -22,7 +22,7 @@
   ); 
 ```
 
-**2.debounce.v（独立按键消抖）**
+**2. debounce.v（独立按键消抖）**
 ```verilog
   module debounce 
   #(
@@ -41,7 +41,7 @@
   ); 
 ```
 
-**3.Array_KeyBoard.v（4×4矩阵键盘扫描）**
+**3. Array_KeyBoard.v（4×4矩阵键盘扫描）**
 ```verilog
   module Array_KeyBoard
   #(
@@ -60,7 +60,7 @@
   );
 ```
 
-**4.pwm.v（PWM生成）**
+**4. pwm.v（PWM生成）**
 ```verilog
   module pwm #(parameter WIDTH = 32)
   //the width of counter, make sure: WIDTH > ln(cycle) / ln2
@@ -74,7 +74,7 @@
   );
 ```
 
-**5.segment_anode.v（共阳极八段数码管）**
+**5. segment_anode.v（共阳极八段数码管）**
 ```verilog
   module segment_anode (
     input         seg_DIG,  // Position selection, active high
@@ -84,7 +84,7 @@
   );
 ```
 
-**6.segment_cathode.v（共阴极八段数码管）**
+**6. segment_cathode.v（共阴极八段数码管）**
 ```verilog
   module segment_cathode (
     input         seg_DIG,  // Position selection, active low
