@@ -1,12 +1,14 @@
-## Welcome to GitHub Pages
+## 欢迎来到HIT吕振斌的个人博客----VerilogLanguage-ModuleRoutine
 
-You can use the [editor on GitHub](https://github.com/HITlvzhenbin2020/VerilogLanguage-ModuleRoutine/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+该网站用于收集一些基于verilog语言的通用module（包含对应的testbench文件）。
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+目的在于：在保证正确率的前期下，缩短FPGA项目产品的开发周期。
 
-### Markdown
+### 目录
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+在此显示已经当前的module和其对应的testbench文件。
+
+当然，此处作者会根据自己的情况，不定期进行更新。
 
 ```markdown
 Syntax highlighted code block
