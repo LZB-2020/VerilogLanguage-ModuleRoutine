@@ -5,10 +5,9 @@
       <p><b>学士本科生</b></p>
       <p><b>哈尔滨工业大学大学信息科学与工程学院</b></p>
       <p><b>邮箱：lvzhenbin666@126.com</b></p>
-      %<p><b>地址：××市××区××路××号××大学，××楼，邮编×××</b></p>
     </td>
     <td width="25%">
-      <img src="https://github.com/HITlvzhenbin2020/VerilogLanguage-ModuleRoutine/raw/image/100%E5%91%A8%E5%B9%B4.png" width="100%">      % 插入证件照代码
+      <img src="https://github.com/HITlvzhenbin2020/VerilogLanguage-ModuleRoutine/raw/image/100%E5%91%A8%E5%B9%B4.png" width="100%">
     </td>
   </tr>
 </table>
