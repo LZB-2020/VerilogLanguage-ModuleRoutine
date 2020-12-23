@@ -1,4 +1,4 @@
-## 欢迎来到HIT吕振斌的个人博客----VerilogLanguage-ModuleRoutine
+## 欢迎来到HIT吕振斌的个人博客——VerilogLanguage-ModuleRoutine
 
 该网站用于收集一些基于verilog语言的通用module（包含对应的testbench文件）。
 
