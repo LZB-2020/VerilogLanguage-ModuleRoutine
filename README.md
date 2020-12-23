@@ -11,7 +11,8 @@
 当然，此处作者会根据自己的情况，不定期进行更新。
 
 ```markdown
-1. divide.v（时钟分频）
+**1. divide.v（时钟分频）**
+
 ```verilog
   module divide #(parameter  N = 5, parameter  WIDTH = 3)
   //N: Frequency division factor, N = (clk frequency) / (clkout frequency)
@@ -22,7 +23,9 @@
     output   clkout    //output clk
   ); 
 ```
-2.debounce.v（独立按键消抖）
+
+**2.debounce.v（独立按键消抖）**
+
 ```verilog
   module debounce 
   #(
@@ -40,7 +43,9 @@
     output [N-1:0] key_pulse   //kry_n[x] was active, and key_pulse[x] is 1(not 0) for one clk cycle
   ); 
 ```
-3.Array_KeyBoard.v（4×4矩阵键盘扫描）
+
+**3.Array_KeyBoard.v（4×4矩阵键盘扫描）**
+
 ```verilog
   module Array_KeyBoard
   #(
@@ -58,7 +63,9 @@
     output [15:0] key_pulse   // output Key pulse, last one clk cycle
   );
 ```
-4.pwm.v（PWM生成）
+
+**4.pwm.v（PWM生成）**
+
 ```verilog
   module pwm #(parameter WIDTH = 32)
   //the width of counter, make sure: WIDTH > ln(cycle) / ln2
@@ -71,7 +78,9 @@
     output          pwm_out
   );
 ```
-5.segment_anode.v（共阳极八段数码管）
+
+**5.segment_anode.v（共阳极八段数码管）**
+
 ```verilog
   module segment_anode (
     input         seg_DIG,  // Position selection, active high
@@ -80,7 +89,9 @@
     output [8:0]  seg_led   // nine signals: MSB~LSB = DIG、DP、G、F、E、D、C、B、A
   );
 ```
-6.segment_cathode.v（共阴极八段数码管）
+
+**6.segment_cathode.v（共阴极八段数码管）**
+
 ```verilog
   module segment_cathode (
     input         seg_DIG,  // Position selection, active low
