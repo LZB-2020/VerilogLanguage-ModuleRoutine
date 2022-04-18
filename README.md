@@ -14,7 +14,7 @@
 
 ## 欢迎来到HIT吕振斌的个人博客——VerilogLanguage-ModuleRoutine版块
 
-该网站用于收集一些基于verilog语言的通用module（包含对应的testbench文件）。
+该网站用于收集一些基于verilog语言的通用module（包含对应的testbench文件），最新更新日期2021-01。
 
 目的在于：在保证正确率的前期下，缩短FPGA项目产品的开发周期。
 
