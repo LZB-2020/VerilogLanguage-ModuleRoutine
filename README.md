@@ -1,20 +1,7 @@
-<table border="0">
-  <tr>
-    <td width="75%">
-      <h1>吕振斌</h1>
-      <p><b>学士本科生</b></p>
-      <p><b>哈尔滨工业大学大学信息科学与工程学院</b></p>
-      <p><b>邮箱：lvzhenbin666@126.com</b></p>
-    </td>
-    <td width="25%">
-      <img src="https://github.com/HITlvzhenbin2020/VerilogLanguage-ModuleRoutine/blob/main/image/100%E5%91%A8%E5%B9%B4.png" width="100%">
-    </td>
-  </tr>
-</table>
 
-## 欢迎来到HIT吕振斌的个人博客——VerilogLanguage-ModuleRoutine版块
+## 简介
 
-该网站用于收集一些基于verilog语言的通用module（包含对应的testbench文件），最新更新日期2021-01。
+该仓库用于收集一些基于verilog语言的通用module（包含对应的testbench文件）。
 
 目的在于：在保证正确率的前期下，缩短FPGA项目产品的开发周期。
 
@@ -107,13 +94,3 @@
     output [8:0]  seg_led   // nine signals: MSB~LSB = DIG、DP、G、F、E、D、C、B、A
   );
 ```
-
-更多Markdown语法细节详见 [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/HITlvzhenbin2020/VerilogLanguage-ModuleRoutine/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
