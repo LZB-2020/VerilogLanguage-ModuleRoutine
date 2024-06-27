@@ -1,6 +1,3 @@
-
-## 简介
-
 该仓库用于收集一些基于verilog语言的通用module（包含对应的testbench文件）。
 
-目的在于：在保证正确率的前期下，缩短FPGA项目产品的开发周期。
+更详尽完备的模块，关注[晴空-Tiso](https://space.bilibili.com/291232072?spm_id_from=333.999.0.0)。
